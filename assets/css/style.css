@@ -769,6 +769,11 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .framework{
+  /* background-color: #18d26e; */
+  color: #fff;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -888,6 +893,20 @@ section .container {
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
+}
+
+
+
+.portfolio .framework p.framework-info{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
